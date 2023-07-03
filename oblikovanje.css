@@ -1,0 +1,86 @@
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+    color: black;
+}
+
+header{
+    background-color: darkgray;
+    color: white;
+    height: 18vh;
+}
+
+footer{
+    background-color: darkgray;
+    height: 40px;
+    color: white;
+}
+
+.left{
+    text-align: left;
+}
+
+.buttonStyle{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin: 25px;
+    border: 1px white solid;
+    padding: 25px;
+}
+  
+  .buttonStyle .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: -50%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  
+  .buttonStyle .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+
+  .imageScale{
+    transform: scaleX(20%);
+    display:none
+  }
+
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #slikaContainer {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  #slika {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #uvećanaSlika {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.2);
+    display: none;
+  }
